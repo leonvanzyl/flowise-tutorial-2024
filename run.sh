@@ -10,13 +10,13 @@ npm install --global yarn
 cd Flowise
 
 # Upgrade yarn packages
-yarn upgrade
+pnpm upgrade
 
 # Install yarn dependencies
-yarn install
+pnpm install
 
 # Build the project
-yarn build
+pnpm build
 
 # Open the web browser with the given URL (this will vary based on the OS)
 if which xdg-open > /dev/null
@@ -30,4 +30,4 @@ else
 fi
 
 # Start the yarn project
-yarn start
+pnpm start
